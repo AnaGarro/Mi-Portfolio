@@ -1,0 +1,757 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+/*------empieza el header------*/
+header{ 
+    background: #F0DDF7;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;
+    position: fixed;
+    box-shadow: 10px 0px 15px #00000080;
+}
+
+header nav {
+    padding: 1rem 2rem ;
+    margin-right: 110px;
+}
+      
+header nav ul li{
+    list-style: none;
+    display: inline;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.3vw;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+header nav ul li a:hover{
+    color:#5eaaa8;
+}
+
+#boton{        
+    color: white; 
+    padding: 10px;
+    background: #a3d2ca;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#boton:hover {
+    color: black;
+}
+/*------termina el header-------*/
+
+/*-------empieza la presentacion------*/ 
+
+.presentacion{
+   background-color: #e5caef;
+   background-image: linear-gradient(0deg, #e5caef 0%, #cef3f3 56%);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 700px;
+   margin: 0 auto;
+   line-height: 2rem;
+}
+
+#anagarro{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    color: #835B94;
+}
+
+.perfil{
+    line-height: 3.5em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+}
+
+#imagen{ 
+    height: 25em;
+    width: 25em;
+}
+
+#boton2{        
+    color: white; 
+    padding: 10px 20px;
+    background: #8ab3ac;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 8rem;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#boton2:hover{
+background-color: #5eaaa8;
+}
+
+/*--------fin de la presentacion-----*/
+
+/*--------Comienzo de mis conocimientos-----*/
+
+.habilidades{ 
+    background-color: #a3d2ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65em;
+}
+
+.cajapadre1{           
+    display: flex;
+    width: 50em;
+    justify-content:center ;
+    flex-wrap: wrap; 
+    margin: 70px auto 80px auto;                   
+}
+
+.cajapadre1 > div{
+    height: 190px;
+    width: 190px;
+    background-color:white;
+    margin: 10px;
+    border: grey solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajapadre1 p{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.caja-hija1:hover{
+    border-color: #ab5ed5;
+    color: #ab5ed5;
+}
+
+.conocimientosyproyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    line-height: 1rem;
+}
+
+.icon{
+    font-size: 5em;
+    padding: .4em;
+}
+/*--------Fin de mis conocimientos-----*/
+
+/*--------Comienza la cita-----*/
+
+.cita{
+    
+    background-color: #8D61A5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37.5em;
+    color: #f7f3e9;
+    }
+
+quote {
+    text-align: center;
+    width: 37.5em;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+}
+
+#comillas{
+    width: 80px;
+    height: 80px;
+    padding: 2rem;
+    }
+
+#someone{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 2.5vw;
+}
+/*--------Fin de la cita-----*/
+
+/* ------Comienza mis proyectos------- */
+.proyectos{ 
+    background-color: #a3d2ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90em;
+}
+
+.cajapadre2{        
+    display: flex;
+    justify-content: space-between;
+    width: 65em;
+    flex-wrap: wrap; 
+    margin: 60px auto;
+}
+
+.cajapadre2 > a{
+    height: 16.25em;
+    width: 17.5em;
+    background-color:white;
+    margin: 0.75em;
+    border: grey solid 1px;
+    border-radius: 10px;
+    padding: 1.25em;
+}
+
+.cajapadre2 p{
+    font-size: 1.1em;
+    font-weight: bold;
+    }
+
+.caja-hija2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.caja-hija2:hover{
+    border-color: #ab5ed5;
+    color: #ab5ed5;
+}
+
+.imagenes{
+    width: 10.6em;
+    height: 10.6em;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/* ------Comienza mis proyectos------- */
+
+/*----------comienza el formulario-------*/
+.contactame{
+    background-color: #ededed;
+    height: 50em;
+    display: flex;
+    align-items: center;
+}
+
+.border{
+    display: flex;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ecd5f9;
+    background-image: linear-gradient(180deg, #ecd5f9 0%, #c6e0e0 56%);
+}
+
+.contact-div{
+    flex-basis: 50%;
+    margin-left: 3em;
+}
+
+#text-contact{
+    width: 75%;
+}
+
+section div ul li{
+    list-style: none;
+    line-height: 3em;
+    width: 16em;
+}
+
+section div ul{
+    margin-top: 2em;
+}
+
+section div ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 3em;
+    color: black;
+}
+
+.titulo{
+    font-size: 3em;
+    padding: 10px 0;
+    margin: 0.5em 0;
+}
+
+.contact-list:hover .icon-contact{
+    background-color:  #8D61A5;
+    color: #bbe9e8;
+    transition: color .5s;
+}
+
+.contact-list:hover a{
+    color: #8D61A5;
+}
+
+.icon-contact{
+    padding: .4em;
+    color: #8D61A5;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 1.5em;
+    margin-right: 10px;   
+}
+
+.nombreyapellido{
+    display: inline-block;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.input-class {
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.input-class:focus{
+    box-shadow: 0px 0px 10px #ab5ed5;
+    transition: .5s;
+}
+
+form input[type="text"]{
+	width: 80%;
+	margin:8px 0;
+	
+}
+
+form input[type="email"]{
+    width: 80%;
+	margin:8px 0;
+}
+
+textarea{
+	width: 80%;
+	height: 9em;
+	margin:8px 0;
+	resize:none;
+}
+
+.button{        
+    color: white; 
+    padding: 10px 45px;
+    background: #b390c5;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.button:hover {
+background-color: #8D61A5;
+transition: 1s;
+}
+
+/*----------Fin el formulario-------*/
+
+/*-------comienza el footer---------*/
+
+footer{
+    background-color: #a3d2ca;
+    height: 19em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+footer ul li{ 
+    display: inline;
+    padding: 1rem;
+    list-style: none;
+    font-size: 1.3vw;
+    }
+
+.footer-nav{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8D61A5;
+    letter-spacing: 2px;
+}    
+
+footer ol{
+    margin: 3em 0;
+}
+
+footer ol li{ 
+    display: inline;
+    margin: .6em;
+}
+
+.icono-footer {
+    padding: .5em;
+    background-color: #8D61A5;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 1.5em;
+    color: #a3d2ca;
+ }
+
+ .icono-footer:hover{
+    border-radius: 50px;
+    background-color: #a3d2ca;
+    color: #8D61A5;
+    box-shadow: 0px 0px 0px 1px #8D61A5 inset;
+    transition: 0.1s;
+ }
+
+ footer p{
+    color: #8D61A5;
+    font-size: 1.1em;
+ }
+
+ .heart{
+    color: rgb(220, 17, 17);
+ }
+ /* -----termina el footer------- */
+
+
+/*comienza section para sombra lateral*/
+
+.sombra-lateral{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    padding: 20px 0 0 20px;
+    box-shadow: -10px 0 20px #00000080;
+    transform: translateX(100%);
+    transition: 0.2s;
+}
+
+/* termina section para sombra lateral*/
+
+
+ /* -------comienza media queries-------- */
+
+ @media(max-width: 1024px){
+    header{
+       display: none;
+    }
+    .presentacion{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .cajapadre2{
+        width: 100%;
+        padding: auto;
+        margin: auto 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cajapadre2 > a{
+        height: 14.25em;
+        width: 15em;
+        margin: 10px;
+        padding: 1em;
+    }
+    .imagenes{
+        width: 6.6em;
+        height: 6.6em;
+        padding: 1rem;
+        margin: auto;
+    }
+    .proyectos{
+        height: 85em;
+    }
+
+    .conocimientos{
+        margin-top: 5em;
+    }
+   
+}
+@media(max-width: 936px){
+    .cajapadre1{
+       width: 80%;
+    }
+
+    .habilidades{
+        height: 75em;
+    }
+
+    .border{
+        width: 90%;
+       margin: auto 10px;
+    }
+
+    .cajapadre2 > a{
+        height: 14.25em;
+        width: 12.5em;
+        margin: 10px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .descripcion{
+        width: 30em;
+    }
+
+}
+@media(max-width: 900px){
+    .cita{
+        height: 30em;
+    }
+    .cajapadre2{        
+        display: flex;
+        justify-content: space-between;
+        width: 45em;
+        flex-wrap: wrap; 
+        margin: 60px auto;
+        }
+    
+    .cajapadre2 > a{
+        height: 16.25em;
+        width: 17.5em;
+        margin: 0.75em;
+        padding: 1.25em;
+    }
+    .imagenes{
+        width: 10.6em;
+        height: 10.6em;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .proyectos{
+        height: 105em;
+    }
+    .descripcion{
+        width: 30em;
+    }
+    .contactame{
+        height: 65em;
+       
+    }
+    .border{
+        flex-direction: column;
+    }
+    #line{
+        border-bottom: 1px solid #8D61A5;
+        width: 80%;
+    }
+    footer ul li{ 
+        padding: 1rem;
+        font-size: 1em;
+    }
+    footer p{
+        font-size: .9em;
+    }
+
+}
+@media(max-width: 740px){
+    #anagarro{
+        font-size: 3em;
+       
+    }
+    .perfil{
+        line-height: 3em;
+        font-size: 1em;
+    }
+    
+    #imagen{ 
+        height: 20em;
+        width: 20em;
+    }
+    quote {
+        width: 37.5em;
+        letter-spacing: 2px;
+        line-height: 1.3rem;
+        font-size: 1em;
+    }
+    .proyectos{
+        height: 85em;
+    }
+    .cajapadre2{        
+        width: 100%;
+        margin: 60px auto;
+       
+    }
+    .cajapadre2 > a{
+        height: 12em;
+        width: 12em;
+        margin: 0.6em;
+        padding: 1em;
+    }
+    .imagenes{
+        width: 8.6em;
+        height: 8.6em;
+        padding: 2rem;
+    }
+    
+    .cajapadre2 p{
+        font-size: 0.8em;
+    }
+
+    footer ul li{ 
+        padding: 1rem;
+        font-size: 0.8em;
+    }
+
+     .icono-footer {
+        padding: .4em;
+        font-size: 1.2em;
+    }
+    
+    footer p{
+        font-size: .9em;
+    }
+
+@media(max-width: 646px){
+    .cajapadre1{
+        width: 30em; 
+        margin: 70px auto 80px auto;                   
+    }
+    
+    .cajapadre1 > div{
+        height: 10em;
+        width: 10em;
+    }
+    
+    .cajapadre1 p{
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .icon{
+        font-size: 4em;
+        padding: .2em;
+    }
+    #comillas{
+        width: 3em;
+        height: 3em;
+        padding: 2rem;
+    }
+    .conocimientosyproyectos{
+        font-size: 2.3rem;
+    }
+    .titulo{
+        font-size: 2.3em;
+    }
+
+} 
+@media(max-width: 600px){
+    quote {
+        width: auto;
+        letter-spacing: 2px;
+        line-height: 1rem;
+        font-size: 0.9em;
+    }
+
+}
+@media(max-width: 508px){
+    .presentacion{
+        height: 600px;
+    }
+
+    #imagen{ 
+        height: 15em;
+        width: 15em;
+        margin-top: 20px;
+    }
+
+    .descripcion{
+        font-size: .8em;
+        
+    }
+    .habilidades{
+        height: auto;
+    }
+    .cajapadre1{
+        width: 20em;                    
+    }
+
+    .cita{
+        height: auto;
+    }
+
+    .proyectos{
+        height: auto;
+    }
+
+    .cajapadre2{
+        width: 20em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conocimientosyproyectos{
+        font-size: 2rem;
+    }
+
+    #text-contact{
+        font-size: .8em;
+    }
+
+    .titulo{
+        font-size: 2em;
+    }
+
+    label{
+        font-weight: bold;
+        font-size: .9em;
+    }
+
+    .button{
+        font-size: .8em;
+    }
+
+    footer{
+        height: 15em;
+    }
+    footer ul li{ 
+        padding: 0.5rem;
+        font-size: 0.5em;
+    }
+}
+}
+ /* -------comienza media queries-------- */
